@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+body{
+	font-family: 'Rampart One', cursive;
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{
+	margin-top: 25px;
+	color: #ffffff;
+	font-family:'Rampart One';
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Rampart One';
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'Rampart One';
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	margin-right: auto;
+    margin-left: auto;
+    background:
+    	url(../img/perrodibujo.png) right bottom no-repeat,
+       	 url(../img/casadibujo.png) left bottom no-repeat,
+       	 url(../img/cielodibujo.png) no-repeat;
+}
+
+
+.filtro{
+	-webkit-filter: sepia(120%);
+}
+
+.filtro1{
+	-webkit-filter: saturate(110%);
+}
+
+.columnas{
+	width: 700px;
+	padding: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 4;
+	column-gap: 60px;
+	column-rule: 7px dotted #2e874f;
+	border-color: #2e874f;
+	border-width: 10px;
+	border-style: outset;
+}
+
+.bordesredondos{
+	border:groove 20px #35bd3e;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+	border-radius: 60px;
+}
+
+.transparencia{
+	width: 960px;
+	height: 640px;
+	background-color: rgba(79, 177, 184,0.10);
+	color:rgba(79, 177, 184);
+}
+
+.degradado {
+	width: 960px;
+	height: 640px;
+	margin: auto;
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#8664B4), to(#FF4E28))
+}
+
+.sombra{
+	width: 960px;
+	height: 500px;
+	background-color: #2ecdd9;
+	-moz-box-shadow: 61px 43px 18px #ffffff;
+	-webkit-box-shadow: 61px 43px 18px #ffffff;
+	box-shadow: 61px 43px 18px #ffffff;
+}
